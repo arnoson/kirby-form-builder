@@ -1,7 +1,21 @@
 <?php
 
+use Kirby\Toolkit\Str;
+
 return function ($kirby) {
   $url = $kirby->urls()->current();
+
+  // This blueprint gets called in the entries tab because of the form entries
+  // and export sections. But at this point the url is still the form page, not the form
+  // entry.
+  // TODO: find a more robust way of handling this.
+  if (
+    Str::endsWith($url, '/sections/form_entries') ||
+    Str::endsWith($url, '/sections/form_export')
+  ) {
+    return [];
+  }
+
   $result = preg_match('/\/pages\/([a-zA-Z0-9+-]+)\/?/', $url, $matches);
   if (!$result) {
     return;
