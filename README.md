@@ -11,7 +11,7 @@ A flexible form builder and handler based on Kirby's layout and block fields and
 
 > **⚠️ Repository Renamed**
 >
-> This repository was renamed from `kirby-forms` to `kirby-form-builder` in version `0.0.9`. Please update your dependencies and config options accordingly.
+> This repository was renamed from `kirby-forms` to `kirby-form-builder` in version `0.0.9`. Please update your dependencies and config options accordingly, see [release note](https://github.com/arnoson/kirby-form-builder/releases/tag/v0.9.0).
 
 ## Features
 
