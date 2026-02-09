@@ -7,7 +7,7 @@ return function (\Kirby\Cms\App $kirby) {
     // Use `F::name()` two times, as email templates might have a double file
     // extensions like `email.text.php`
     fn($file) => F::name(F::name($file)),
-    glob($kirby->root('templates') . '/emails/*.php')
+    glob($kirby->root('templates') . '/emails/*.php'),
   );
 
   return [

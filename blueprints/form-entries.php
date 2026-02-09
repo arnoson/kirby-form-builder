@@ -17,7 +17,7 @@ return function ($kirby) {
       $result[$field['name']] = ['label' => $field['label']];
       return $result;
     },
-    ['title' => ['label' => 'arnoson.kirby-form-builder.submitted']]
+    ['title' => ['label' => 'arnoson.kirby-form-builder.submitted']],
   );
 
   $blueprint = [

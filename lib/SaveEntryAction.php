@@ -44,7 +44,7 @@ class SaveEntryAction extends Action {
           ]),
         ]);
         $entry = $entry->changeStatus(
-          option('arnoson.kirby-form-builder.defaultEntryStatus')
+          option('arnoson.kirby-form-builder.defaultEntryStatus'),
         );
       });
     } catch (\Exception $e) {

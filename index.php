@@ -88,8 +88,8 @@ function KirbyFormBuilder() {
                   I18n::template(
                     'arnoson.kirby-form-builder.duplicate-name-error',
                     null,
-                    ['name' => $name]
-                  )
+                    ['name' => $name],
+                  ),
                 );
               } else {
                 $keys[$name] = true;
@@ -138,7 +138,7 @@ function KirbyFormBuilder() {
         foreach ($entries as $entry) {
           $data = array_map(
             fn($column) => $entry->content()->get($column)->value(),
-            $columns
+            $columns,
           );
           fputcsv($handle, $data);
         }

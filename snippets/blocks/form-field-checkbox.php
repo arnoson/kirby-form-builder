@@ -1,7 +1,7 @@
 <?php $attributes = arnoson\KirbyFormBuilder\formFieldAttributes(
   $id,
   $block,
-  $form
+  $form,
 ); ?>
 
 <label>

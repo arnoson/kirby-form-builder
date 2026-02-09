@@ -50,7 +50,7 @@ return function ($kirby) {
       'theme' => 'negative',
       'text' => tt(
         'arnoson.kirby-form-builder.form-not-found',
-        replace: ['name' => $slug]
+        replace: ['name' => $slug],
       ),
     ];
     return $blueprint;
@@ -62,7 +62,7 @@ return function ($kirby) {
       'theme' => 'negative',
       'text' => tt(
         'arnoson.kirby-form-builder.form-entry-not-found',
-        replace: ['name' => $slug]
+        replace: ['name' => $slug],
       ),
     ];
     return $blueprint;

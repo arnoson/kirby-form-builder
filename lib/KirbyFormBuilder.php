@@ -30,7 +30,7 @@ class KirbyFormBuilder {
           // crashing Kirby's number field)
           $field = A::map(
             $block->content()->toArray(),
-            fn($value) => $value === '' ? null : $value
+            fn($value) => $value === '' ? null : $value,
           );
           $type = $match[1];
 
