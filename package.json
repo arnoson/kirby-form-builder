@@ -9,7 +9,7 @@
     "format": "npx prettier --write \"**/*.{php,js,css}\""
   },
   "devDependencies": {
-    "@prettier/plugin-php": "^0.22.1",
+    "@prettier/plugin-php": "^0.24.0",
     "bumpp": "^10.0.0",
     "kirbyup": "^3.1.0",
     "prettier": "^3.2.4"
