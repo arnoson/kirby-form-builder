@@ -1,11 +1,11 @@
-name: arnoson.kirby-forms.checkbox
+name: arnoson.kirby-form-builder.checkbox
 icon: ☑️
 fields:
   extends: fields/form-field-basic
   label:
     type: writer
-    label: arnoson.kirby-forms.label
-    placeholder: arnoson.kirby-forms.field-name
+    label: arnoson.kirby-form-builder.label
+    placeholder: arnoson.kirby-form-builder.field-name
     width: 5/12
     inline: true
     marks:

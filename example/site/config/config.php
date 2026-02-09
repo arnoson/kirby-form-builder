@@ -11,7 +11,7 @@
     ],
   ],
 
-  'arnoson.kirby-forms' => [
+  'arnoson.kirby-form-builder' => [
     'fromEmails' => ['noreply@example.com'],
     'clientValidation' => false,
   ],

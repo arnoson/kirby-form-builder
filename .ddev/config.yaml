@@ -1,4 +1,4 @@
-name: kirby-forms
+name: kirby-form-builder
 type: php
 docroot: example
 php_version: '8.2'

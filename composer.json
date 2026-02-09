@@ -1,5 +1,5 @@
 {
-  "name": "arnoson/kirby-forms",
+  "name": "arnoson/kirby-form-builder",
   "description": "Form builder and handler for Kirby 5",
   "version": "0.8.1",
   "type": "kirby-plugin",

@@ -2,25 +2,25 @@ type: fields
 fields:
   success_headline:
     type: headline
-    label: arnoson.kirby-forms.success
+    label: arnoson.kirby-form-builder.success
     numbered: false
 
   success_type:
     type: toggles
-    label: arnoson.kirby-forms.success-type
+    label: arnoson.kirby-form-builder.success-type
     width: 5/12
     default: message
     options:
       - value: message
-        text: "{{ t('arnoson.kirby-forms.message') }}"
+        text: "{{ t('arnoson.kirby-form-builder.message') }}"
         icon: text
       - value: page
-        text: "{{ t('arnoson.kirby-forms.page') }}"
+        text: "{{ t('arnoson.kirby-form-builder.page') }}"
         icon: share
 
   success_text:
     type: writer
-    label: arnoson.kirby-forms.message
+    label: arnoson.kirby-form-builder.message
     placeholder: Thank you for your registration!
     default: Thank you for your registration!
     width: 7/12
@@ -28,7 +28,7 @@ fields:
       success_type: message
 
   success_page:
-    label: arnoson.kirby-forms.page
+    label: arnoson.kirby-form-builder.page
     type: pages
     multiple: false
     width: 7/12

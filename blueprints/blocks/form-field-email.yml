@@ -1,4 +1,4 @@
-name: arnoson.kirby-forms.email
+name: arnoson.kirby-form-builder.email
 icon: 📧
 fields:
   extends: fields/form-field-basic
@@ -14,4 +14,4 @@ fields:
     width: 1/2
   error:
     extends: fields/form-error-message
-    placeholder: arnoson.kirby-forms.invalid-email-error
+    placeholder: arnoson.kirby-form-builder.invalid-email-error

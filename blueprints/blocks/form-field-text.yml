@@ -1,4 +1,4 @@
-name: arnoson.kirby-forms.text
+name: arnoson.kirby-form-builder.text
 icon: ✏️
 fields:
   extends: fields/form-field-basic
@@ -25,4 +25,4 @@ fields:
     width: 2/4
   error:
     extends: fields/form-error-message
-    placeholder: arnoson.kirby-forms.invalid-text-error
+    placeholder: arnoson.kirby-form-builder.invalid-text-error

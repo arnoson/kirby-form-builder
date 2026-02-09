@@ -37,7 +37,7 @@ return function ($kirby) {
     'fields' => [
       'form_export' => [
         'type' => 'form-export',
-        'label' => ['*' => 'arnoson.kirby-forms.export'],
+        'label' => ['*' => 'arnoson.kirby-form-builder.export'],
         'formId' => $formPage?->uuid()->id(),
         'entryId' => $entryPage?->uuid()->id(),
       ],
@@ -49,7 +49,7 @@ return function ($kirby) {
       'type' => 'info',
       'theme' => 'negative',
       'text' => tt(
-        'arnoson.kirby-forms.form-not-found',
+        'arnoson.kirby-form-builder.form-not-found',
         replace: ['name' => $slug]
       ),
     ];
@@ -61,19 +61,19 @@ return function ($kirby) {
       'type' => 'info',
       'theme' => 'negative',
       'text' => tt(
-        'arnoson.kirby-forms.form-entry-not-found',
+        'arnoson.kirby-form-builder.form-entry-not-found',
         replace: ['name' => $slug]
       ),
     ];
     return $blueprint;
   }
 
-  $formFields = kirbyForms()->formFields($formPage);
+  $formFields = KirbyFormBuilder()->formFields($formPage);
   if (!count($formFields)) {
     $blueprint['fields']['form_info'] = [
       'type' => 'info',
       'label' => 'Data',
-      'text' => t('arnoson.kirby-forms.no-fields'),
+      'text' => t('arnoson.kirby-form-builder.no-fields'),
     ];
     return $blueprint;
   }

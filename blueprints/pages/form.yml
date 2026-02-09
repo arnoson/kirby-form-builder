@@ -1,4 +1,4 @@
-title: arnoson.kirby-forms.form
+title: arnoson.kirby-form-builder.form
 tabs:
   fields: tabs/form-fields
   entries: tabs/form-entries

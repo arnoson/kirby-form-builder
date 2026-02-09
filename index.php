@@ -5,16 +5,16 @@ use Kirby\Cms\Layouts;
 use Kirby\Http\Header;
 use Kirby\Toolkit\I18n;
 
-require_once __DIR__ . '/lib/KirbyForms.php';
+require_once __DIR__ . '/lib/KirbyFormBuilder.php';
 require_once __DIR__ . '/lib/helpers.php';
 require_once __DIR__ . '/lib/SaveEntryAction.php';
 require_once __DIR__ . '/lib/BrevoAction.php';
 
-function kirbyForms() {
-  return arnoson\KirbyForms\KirbyForms::getInstance();
+function KirbyFormBuilder() {
+  return arnoson\KirbyFormBuilder\KirbyFormBuilder::getInstance();
 }
 
-\Kirby\Cms\App::plugin('arnoson/kirby-forms', [
+\Kirby\Cms\App::plugin('arnoson/kirby-form-builder', [
   'fields' => [
     'form-identifier' => ['extends' => 'slug'],
     'form-email-select' => [],
@@ -50,7 +50,7 @@ function kirbyForms() {
 
     // Wether or not to use uniform's session store action. If enabled,
     // submitted forms are available as `kirby()->session()->get(formId)` where
-    // `formId` can be obtained with `KirbyForms::getFormId($yourFormPage)`
+    // `formId` can be obtained with `KirbyFormBuilder::getFormId($yourFormPage)`
     // https://kirby-uniform.readthedocs.io/en/latest/actions/session-store/
     'sessionStore' => false,
 
@@ -86,7 +86,7 @@ function kirbyForms() {
               if ($keys[$name] ?? false) {
                 throw new Exception(
                   I18n::template(
-                    'arnoson.kirby-forms.duplicate-name-error',
+                    'arnoson.kirby-form-builder.duplicate-name-error',
                     null,
                     ['name' => $name]
                   )
@@ -103,7 +103,7 @@ function kirbyForms() {
 
   'routes' => [
     [
-      'pattern' => 'kirby-forms/export/(:any)/(:any?)',
+      'pattern' => 'kirby-form-builder/export/(:any)/(:any?)',
       'action' => function ($formId, $entryId = null) {
         if (!kirby()->user()?->isLoggedIn()) {
           throw new Error('You need to be logged in to export form entries.');
@@ -122,7 +122,7 @@ function kirbyForms() {
           ? new Collection([$entryPage])
           : $formPage->childrenAndDrafts()->sort('form_submitted', 'desc');
 
-        $fields = kirbyForms()->formFields($formPage);
+        $fields = KirbyFormBuilder()->formFields($formPage);
         $columns = array_column($fields, 'name');
         array_unshift($columns, 'form_submitted');
 

@@ -1,94 +1,94 @@
-arnoson.kirby-forms.submit: Versturen
-arnoson.kirby-forms.success: Succes
-arnoson.kirby-forms.error: Fout
-arnoson.kirby-forms.error-message: Foutmelding
-arnoson.kirby-forms.fields: Velden
-arnoson.kirby-forms.message: Bericht
-arnoson.kirby-forms.page: Pagina
-arnoson.kirby-forms.enabled: Ingeschakeld
-arnoson.kirby-forms.submitted: Ingezonden
-arnoson.kirby-forms.entries: Inzendingen
-arnoson.kirby-forms.settings: Instellingen
-arnoson.kirby-forms.export: Exporteren
-arnoson.kirby-forms.create-from-label: Maak van label
-arnoson.kirby-forms.label: Label
-arnoson.kirby-forms.field-name: Veldnaam
-arnoson.kirby-forms.field-identifier: Naam
-arnoson.kirby-forms.field-identifier-placeholder: veldnaam
-arnoson.kirby-forms.required: Verplicht
-arnoson.kirby-forms.default: Standaard
-arnoson-kirby-forms.default-select-placeholder: value
-arnoson-kirby-forms.default-radio-placeholder: value
-arnoson-kirby-forms.default-checkboxes-placeholder: option1, option2
-arnoson.kirby-forms.max-length: Maximale lengte
-arnoson.kirby-forms.min-length: Minimale lengte
-arnoson.kirby-forms.max-value: Maximale waarde
-arnoson.kirby-forms.min-value: Minimale waarde
-arnoson.kirby-forms.step: Step
-arnoson.kirby-forms.pattern: Patroon
-arnoson.kirby-forms.placeholder: Placeholder
-arnoson.kirby-forms.options: Options
-arnoson.kirby-forms.empty: Allow empty
-arnoson.kirby-forms.value: Value
-arnoson.kirby-forms.basic: Basic
-arnoson.kirby-forms.contact: Contact
-arnoson.kirby-forms.date-and-time: Datum & Tijd
-arnoson.kirby-forms.other: Ander
-arnoson.kirby-forms.form: Formulier
-arnoson.kirby-forms.forms: Formulare
+arnoson.kirby-form-builder.submit: Versturen
+arnoson.kirby-form-builder.success: Succes
+arnoson.kirby-form-builder.error: Fout
+arnoson.kirby-form-builder.error-message: Foutmelding
+arnoson.kirby-form-builder.fields: Velden
+arnoson.kirby-form-builder.message: Bericht
+arnoson.kirby-form-builder.page: Pagina
+arnoson.kirby-form-builder.enabled: Ingeschakeld
+arnoson.kirby-form-builder.submitted: Ingezonden
+arnoson.kirby-form-builder.entries: Inzendingen
+arnoson.kirby-form-builder.settings: Instellingen
+arnoson.kirby-form-builder.export: Exporteren
+arnoson.kirby-form-builder.create-from-label: Maak van label
+arnoson.kirby-form-builder.label: Label
+arnoson.kirby-form-builder.field-name: Veldnaam
+arnoson.kirby-form-builder.field-identifier: Naam
+arnoson.kirby-form-builder.field-identifier-placeholder: veldnaam
+arnoson.kirby-form-builder.required: Verplicht
+arnoson.kirby-form-builder.default: Standaard
+arnoson-kirby-form-builder.default-select-placeholder: value
+arnoson-kirby-form-builder.default-radio-placeholder: value
+arnoson-kirby-form-builder.default-checkboxes-placeholder: option1, option2
+arnoson.kirby-form-builder.max-length: Maximale lengte
+arnoson.kirby-form-builder.min-length: Minimale lengte
+arnoson.kirby-form-builder.max-value: Maximale waarde
+arnoson.kirby-form-builder.min-value: Minimale waarde
+arnoson.kirby-form-builder.step: Step
+arnoson.kirby-form-builder.pattern: Patroon
+arnoson.kirby-form-builder.placeholder: Placeholder
+arnoson.kirby-form-builder.options: Options
+arnoson.kirby-form-builder.empty: Allow empty
+arnoson.kirby-form-builder.value: Value
+arnoson.kirby-form-builder.basic: Basic
+arnoson.kirby-form-builder.contact: Contact
+arnoson.kirby-form-builder.date-and-time: Datum & Tijd
+arnoson.kirby-form-builder.other: Ander
+arnoson.kirby-form-builder.form: Formulier
+arnoson.kirby-form-builder.forms: Formulare
 
-arnoson.kirby-forms.success-type: Weergeven
-arnoson.kirby-forms.submit-button-label: Knoplabel
+arnoson.kirby-form-builder.success-type: Weergeven
+arnoson.kirby-form-builder.submit-button-label: Knoplabel
 
-arnoson.kirby-forms.confirmation-email: Bevestigingsmail
-arnoson.kirby-forms.notification-email: Notificatiemail
-arnoson.kirby-forms.email-from: Van
-arnoson.kirby-forms.email-to: Naar
-arnoson.kirby-forms.email-subject: Onderwerp
-arnoson.kirby-forms.email-subject-placeholder: Thank you for your registration!
-arnoson.kirby-forms.email-content: Inhoud
-arnoson.kirby-forms.email-content-text: Text
-arnoson.kirby-forms.email-content-template: Template
-arnoson.kirby-forms.brevo-update: Bestaande contacten bijwerken
-arnoson.kirby-forms.brevo-list-id: Lijst
-arnoson.kirby-forms.brevo-opt-in: Double-opt-in
-arnoson.kirby-forms.brevo-redirection-url: Bevestigingspagina
-arnoson.kirby-forms.brevo-template-id: Double-opt-in sjabloon
-arnoson.kirby-forms.save: Opslaan
-arnoson.kirby-forms.save-entries: In Kirby opslaan
+arnoson.kirby-form-builder.confirmation-email: Bevestigingsmail
+arnoson.kirby-form-builder.notification-email: Notificatiemail
+arnoson.kirby-form-builder.email-from: Van
+arnoson.kirby-form-builder.email-to: Naar
+arnoson.kirby-form-builder.email-subject: Onderwerp
+arnoson.kirby-form-builder.email-subject-placeholder: Thank you for your registration!
+arnoson.kirby-form-builder.email-content: Inhoud
+arnoson.kirby-form-builder.email-content-text: Text
+arnoson.kirby-form-builder.email-content-template: Template
+arnoson.kirby-form-builder.brevo-update: Bestaande contacten bijwerken
+arnoson.kirby-form-builder.brevo-list-id: Lijst
+arnoson.kirby-form-builder.brevo-opt-in: Double-opt-in
+arnoson.kirby-form-builder.brevo-redirection-url: Bevestigingspagina
+arnoson.kirby-form-builder.brevo-template-id: Double-opt-in sjabloon
+arnoson.kirby-form-builder.save: Opslaan
+arnoson.kirby-form-builder.save-entries: In Kirby opslaan
 
-arnoson.kirby-forms.checkbox: Checkbox
-arnoson.kirby-forms.checkboxes: Checkboxen
-arnoson.kirby-forms.date: Datum
-arnoson.kirby-forms.email: E-mail
-arnoson.kirby-forms.number: Nummer
-arnoson.kirby-forms.radio: Radioknoppen
-arnoson.kirby-forms.select: Selecteer
-arnoson.kirby-forms.tel: Telefoon
-arnoson.kirby-forms.text: Tekst
-arnoson.kirby-forms.textarea: Tekstveld
-arnoson.kirby-forms.time: Tijd
-arnoson.kirby-forms.url: URL
+arnoson.kirby-form-builder.checkbox: Checkbox
+arnoson.kirby-form-builder.checkboxes: Checkboxen
+arnoson.kirby-form-builder.date: Datum
+arnoson.kirby-form-builder.email: E-mail
+arnoson.kirby-form-builder.number: Nummer
+arnoson.kirby-form-builder.radio: Radioknoppen
+arnoson.kirby-form-builder.select: Selecteer
+arnoson.kirby-form-builder.tel: Telefoon
+arnoson.kirby-form-builder.text: Tekst
+arnoson.kirby-form-builder.textarea: Tekstveld
+arnoson.kirby-form-builder.time: Tijd
+arnoson.kirby-form-builder.url: URL
 
-arnoson.kirby-forms.invalid-checkboxes-error: Selecteer één of meer opties
-arnoson.kirby-forms.invalid-date-error: Voer een geldige datum in
-arnoson.kirby-forms.invalid-email-error: Voer een geldig e-mailadres in
-arnoson.kirby-forms.invalid-number-error: Voer een geldig nummer in
-arnoson.kirby-forms.invalid-radio-error: Selecteer een optie
-arnoson.kirby-forms.invalid-select-error: Selecteer een optie
-arnoson.kirby-forms.invalid-tel-error: Voer een geldig telefoonnummer in
-arnoson.kirby-forms.invalid-text-error: Voer een tekst in
-arnoson.kirby-forms.invalid-time-error: Voer een geldige tijd in
-arnoson.kirby-forms.invalid-url-error: Voer een geldige URL in
-arnoson.kirby-forms.duplicate-name-error: Er bestaat al een veld met de naam „{name}“
+arnoson.kirby-form-builder.invalid-checkboxes-error: Selecteer één of meer opties
+arnoson.kirby-form-builder.invalid-date-error: Voer een geldige datum in
+arnoson.kirby-form-builder.invalid-email-error: Voer een geldig e-mailadres in
+arnoson.kirby-form-builder.invalid-number-error: Voer een geldig nummer in
+arnoson.kirby-form-builder.invalid-radio-error: Selecteer een optie
+arnoson.kirby-form-builder.invalid-select-error: Selecteer een optie
+arnoson.kirby-form-builder.invalid-tel-error: Voer een geldig telefoonnummer in
+arnoson.kirby-form-builder.invalid-text-error: Voer een tekst in
+arnoson.kirby-form-builder.invalid-time-error: Voer een geldige tijd in
+arnoson.kirby-form-builder.invalid-url-error: Voer een geldige URL in
+arnoson.kirby-form-builder.duplicate-name-error: Er bestaat al een veld met de naam „{name}“
 
-arnoson.kirby-forms.no-entries: Nog geen inzendingen
-arnoson.kirby-forms.no-emails: No email addresses found
-arnoson.kirby-forms.no-fields: No fields yet
-arnoson.kirby-forms.form-not-found: Couldn't find form "{name}"
-arnoson.kirby-forms.form-entry-not-found: Couldn't find form entry "{name}"
-arnoson.kirby-forms.save-error: Er is een fout opgetreden bij het opslaan van de formuliergegevens
-arnoson.kirby-forms.reserved-identifier: De naam kan niet ‘website’ zijn, omdat dit veld wordt gebruikt voor spambeveiliging. Gebruik in plaats daarvan een andere naam zoals ‘website_url’.
-arnoson.kirby-forms.no-comma-in-value: De waarde kan geen komma bevatten.
-arnoson.kirby-forms.empty-notification-body: Laat dit veld leeg om in plaats daarvan alle formuliergegevens te verzenden.
-arnoson.kirby-forms.brevo-error: Gegevens konden niet naar Brevo worden verzonden
+arnoson.kirby-form-builder.no-entries: Nog geen inzendingen
+arnoson.kirby-form-builder.no-emails: No email addresses found
+arnoson.kirby-form-builder.no-fields: No fields yet
+arnoson.kirby-form-builder.form-not-found: Couldn't find form "{name}"
+arnoson.kirby-form-builder.form-entry-not-found: Couldn't find form entry "{name}"
+arnoson.kirby-form-builder.save-error: Er is een fout opgetreden bij het opslaan van de formuliergegevens
+arnoson.kirby-form-builder.reserved-identifier: De naam kan niet ‘website’ zijn, omdat dit veld wordt gebruikt voor spambeveiliging. Gebruik in plaats daarvan een andere naam zoals ‘website_url’.
+arnoson.kirby-form-builder.no-comma-in-value: De waarde kan geen komma bevatten.
+arnoson.kirby-form-builder.empty-notification-body: Laat dit veld leeg om in plaats daarvan alle formuliergegevens te verzenden.
+arnoson.kirby-form-builder.brevo-error: Gegevens konden niet naar Brevo worden verzonden

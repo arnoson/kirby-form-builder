@@ -1,4 +1,4 @@
-<?php $attributes = arnoson\KirbyForms\formFieldAttributes(
+<?php $attributes = arnoson\KirbyFormBuilder\formFieldAttributes(
   $id,
   $block,
   $form

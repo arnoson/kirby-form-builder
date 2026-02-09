@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<h1 align="center">Kirby Forms</h1>
+<h1 align="center">Kirby Form Builder</h1>
 
 A flexible form builder and handler based on Kirby's layout and block fields and [Kirby Uniform](https://github.com/mzur/kirby-uniform/).
 
@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/4c02de74-31c4-4b89-8444-39b5c0e5d6bb
 Make sure you have [Kirby Uniform](https://github.com/mzur/kirby-uniform/) installed, then install the plugin using Composer:
 
 ```shell
-composer require arnoson/kirby-forms
+composer require arnoson/kirby-form-builder
 ```
 
 ## Getting started
@@ -45,7 +45,7 @@ Most options (success message, confirmation emails, ...) can be configured per f
 These global options can only be set in the plugin's config:
 
 ```php
-'arnoson.kirby-forms' => [
+'arnoson.kirby-form-builder' => [
   // A list of email addresses that can be selected in the panel as the sender
   // of confirmation and notification emails.
   'fromEmails' => [],
@@ -80,11 +80,11 @@ Form entries will be saved directly in the form page and can be viewed/deleted/e
 
 ## Using Different Layouts
 
-By creating your own `fields/form-fields` blueprint, you can overwrite the possible layouts in the form builder. Use this [file](https://github.com/arnoson/kirby-forms/blob/master/blueprints/fields/form-fields.yml) as a starting point.
+By creating your own `fields/form-fields` blueprint, you can overwrite the possible layouts in the form builder. Use this [file](https://github.com/arnoson/kirby-form-builder/blob/master/blueprints/fields/form-fields.yml) as a starting point.
 
 ## Run Additional Actions
 
-You can run additional actions on a per form basis. Just return an array of actions from the form's page model. See [form-workshop.php](https://github.com/arnoson/kirby-forms/blob/main/example/site/models/form-workshop.php) for a complete example.
+You can run additional actions on a per form basis. Just return an array of actions from the form's page model. See [form-workshop.php](https://github.com/arnoson/kirby-form-builder/blob/main/example/site/models/form-workshop.php) for a complete example.
 
 ```php
 // site/models/form.php
@@ -107,7 +107,7 @@ class FormPage extends Kirby\Cms\Page {
 
 ## Adding Custom Fields
 
-The easiest way to add your own custom fields is to start with the [example](https://github.com/arnoson/kirby-forms/tree/master/example/site/plugins/custom-form-fields).
+The easiest way to add your own custom fields is to start with the [example](https://github.com/arnoson/kirby-form-builder/tree/master/example/site/plugins/custom-form-fields).
 
 Custom fields consist of
 
@@ -118,7 +118,7 @@ The block name must follow the naming convention of `form-field-<panel-field-nam
 
 Ideally, a custom field should also have a [block preview](https://getkirby.com/docs/cookbook/panel/custom-block-type#simple-index-js).
 
-To show your custom field as an option in the Kirby Forms form builder, you have to override the `fields/form-fields` blueprint, see the [example](https://github.com/arnoson/kirby-forms/tree/master/example/site/blueprints/fields/form-fields.yml).
+To show your custom field as an option in the Kirby Form Builder form builder, you have to override the `fields/form-fields` blueprint, see the [example](https://github.com/arnoson/kirby-form-builder/tree/master/example/site/blueprints/fields/form-fields.yml).
 
 ## Contribute
 

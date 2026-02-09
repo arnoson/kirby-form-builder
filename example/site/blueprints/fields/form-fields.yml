@@ -1,4 +1,4 @@
-label: arnoson.kirby-forms.fields
+label: arnoson.kirby-form-builder.fields
 type: layout
 layouts:
   - '1/1'
@@ -8,7 +8,7 @@ layouts:
 fieldsets:
   basic:
     type: group
-    label: arnoson.kirby-forms.basic
+    label: arnoson.kirby-form-builder.basic
     fieldsets:
       - form-field-text
       - form-field-textarea
@@ -21,18 +21,18 @@ fieldsets:
       - form-field-range
   contact:
     type: group
-    label: arnoson.kirby-forms.contact
+    label: arnoson.kirby-form-builder.contact
     fieldsets:
       - form-field-email
       - form-field-tel
   date_time:
-    label: arnoson.kirby-forms.date-and-time
+    label: arnoson.kirby-form-builder.date-and-time
     type: group
     fieldsets:
       - form-field-date
       - form-field-time
   other:
     type: group
-    label: arnoson.kirby-forms.other
+    label: arnoson.kirby-form-builder.other
     fieldsets:
       - form-field-url

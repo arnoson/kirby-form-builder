@@ -2,18 +2,18 @@ type: fields
 fields:
   notificationEmail_headline:
     type: headline
-    label: arnoson.kirby-forms.notification-email
+    label: arnoson.kirby-form-builder.notification-email
     numbered: false
 
   notificationEmail_enabled:
     type: toggle
     default: false
-    label: arnoson.kirby-forms.enabled
+    label: arnoson.kirby-form-builder.enabled
     width: 2/12
 
   notificationEmail_to:
     type: email
-    label: arnoson.kirby-forms.email-to
+    label: arnoson.kirby-form-builder.email-to
     placeholder: info@your-site.com
     required: true
     width: 5/12
@@ -22,7 +22,7 @@ fields:
 
   notificationEmail_from:
     extends: fields/form-email-sender
-    label: arnoson.kirby-forms.email-from
+    label: arnoson.kirby-form-builder.email-from
     placeholder: info@your-site.com
     required: true
     width: 5/12
@@ -31,8 +31,8 @@ fields:
 
   notificationEmail_subject:
     type: text
-    label: arnoson.kirby-forms.email-subject
-    placeholder: arnoson.kirby-forms.email-subject-placeholder
+    label: arnoson.kirby-form-builder.email-subject
+    placeholder: arnoson.kirby-form-builder.email-subject-placeholder
     required: true
     width: 12/12
     when:
@@ -40,26 +40,26 @@ fields:
 
   notificationEmail_type:
     type: toggles
-    label: arnoson.kirby-forms.email-content
+    label: arnoson.kirby-form-builder.email-content
     default: text
     width: 1/3
     options:
       - value: text
-        text: "{{ t('arnoson.kirby-forms.text') }}"
+        text: "{{ t('arnoson.kirby-form-builder.text') }}"
         icon: text
       - value: template
-        text: "{{ t('arnoson.kirby-forms.template') ?? t('template') }}"
+        text: "{{ t('arnoson.kirby-form-builder.template') ?? t('template') }}"
         icon: template
     when:
       notificationEmail_enabled: true
 
   notificationEmail_body:
-    label: arnoson.kirby-forms.email-content-text
+    label: arnoson.kirby-form-builder.email-content-text
     type: textarea
     buttons: false
     required: false
     width: 2/3
-    help: arnoson.kirby-forms.empty-notification-body
+    help: arnoson.kirby-form-builder.empty-notification-body
     when:
       notificationEmail_type: text
       notificationEmail_enabled: true

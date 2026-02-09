@@ -1,13 +1,13 @@
 <?php
 
-namespace arnoson\KirbyForms;
+namespace arnoson\KirbyFormBuilder;
 
 use Kirby\Cms\Page;
 use Kirby\Toolkit\A;
 use Kirby\Toolkit\Str;
 use Uniform\Form;
 
-class KirbyForms {
+class KirbyFormBuilder {
   protected static $instance = null;
 
   public static function getInstance(): self {
@@ -145,13 +145,15 @@ class KirbyForms {
     }
 
     if ($formPage->sessionStore()->toBool()) {
-      $form->sessionStoreAction(['name' => KirbyForms::getFormId($formPage)]);
+      $form->sessionStoreAction([
+        'name' => KirbyFormBuilder::getFormId($formPage),
+      ]);
     }
 
     if ($form->success()) {
       // If we use multiple forms on a single page, we have to be able to
       // distinguish which form was successful.
-      flash('kirby-forms.success_form_id', get('form_id'));
+      flash('kirby-form-builder.success_form_id', get('form_id'));
 
       $successType = $formPage->success_type()->value();
       $successUrl = $formPage->success_page()->toPage()?->url();

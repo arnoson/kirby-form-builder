@@ -2,12 +2,12 @@ type: fields
 fields:
   error_headline:
     type: headline
-    label: arnoson.kirby-forms.error
+    label: arnoson.kirby-form-builder.error
     numbered: false
 
   error_invalidFields:
     type: writer
-    label: arnoson.kirby-forms.message
+    label: arnoson.kirby-form-builder.message
     placeholder: Please fill in all fields correctly.
     default: Please fill in all fields correctly.
 

@@ -2,7 +2,7 @@
 
 namespace Uniform\Actions;
 
-use arnoson\KirbyForms\KirbyForms;
+use arnoson\KirbyFormBuilder\KirbyFormBuilder;
 use DateTime;
 use Error;
 use Kirby\Toolkit\A;
@@ -22,7 +22,7 @@ class SaveEntryAction extends Action {
       unset($data['form_id']);
 
       // Some fields like checkboxes need to be stored in a different format.
-      $fields = KirbyForms()->formFields($page);
+      $fields = KirbyFormBuilder()->formFields($page);
       foreach ($data as $name => $value) {
         $field = $fields[$name] ?? null;
         if (!$field) {
@@ -44,7 +44,7 @@ class SaveEntryAction extends Action {
           ]),
         ]);
         $entry = $entry->changeStatus(
-          option('arnoson.kirby-forms.defaultEntryStatus')
+          option('arnoson.kirby-form-builder.defaultEntryStatus')
         );
       });
     } catch (\Exception $e) {
@@ -57,7 +57,7 @@ class SaveEntryAction extends Action {
    */
   protected function handleException($e) {
     $error = $e->getMessage();
-    $message = I18n::translate('arnoson.kirby-forms.save-error');
+    $message = I18n::translate('arnoson.kirby-form-builder.save-error');
     $message = option('debug') ? "$message: $error" : "$message.";
     $this->fail($message);
   }

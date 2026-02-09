@@ -6,7 +6,7 @@ use Kirby\Toolkit\A;
 
 $errors = [];
 $hasFieldError = false;
-$fields = kirbyForms()->formFields($formPage);
+$fields = KirbyFormBuilder()->formFields($formPage);
 $fieldNames = array_keys($fields);
 
 // Individual field errors are handled directly in the corresponding field

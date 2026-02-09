@@ -15,8 +15,8 @@ export default {
   methods: {
     download() {
       const path = this.entryId
-        ? `kirby-forms/export/${this.formId}/${this.entryId}`
-        : `kirby-forms/export/${this.formId}`
+        ? `kirby-form-builder/export/${this.formId}/${this.entryId}`
+        : `kirby-form-builder/export/${this.formId}`
       window.location.pathname = path
     },
   },

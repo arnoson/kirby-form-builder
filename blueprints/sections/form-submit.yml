@@ -2,7 +2,7 @@ type: fields
 fields:
   submit_headline:
     type: headline
-    label: arnoson.kirby-forms.submit
+    label: arnoson.kirby-form-builder.submit
     numbered: false
 
   label_submit:
@@ -10,7 +10,7 @@ fields:
     required: true
     default: Submit
     placeholder: Submit
-    label: arnoson.kirby-forms.submit-button-label
+    label: arnoson.kirby-form-builder.submit-button-label
 
   submit_gap:
     type: gap

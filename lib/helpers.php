@@ -1,6 +1,6 @@
 <?php
 
-namespace arnoson\KirbyForms;
+namespace arnoson\KirbyFormBuilder;
 
 /**
  * Generate the html attributes for a form field.
@@ -13,7 +13,7 @@ function formFieldAttributes($id, $field, $form): array {
   $hasError = !!$form->error($name);
   $default = $field->default()->value();
   $value = $form->old($name) ?? $default;
-  $defaultPlaceholder = option('arnoson.kirby-forms.addEmptyPlaceholder')
+  $defaultPlaceholder = option('arnoson.kirby-form-builder.addEmptyPlaceholder')
     ? '  ' // We need two spaces, otherwise kirby will show a warning.
     : null;
 

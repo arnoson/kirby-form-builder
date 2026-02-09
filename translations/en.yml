@@ -1,94 +1,94 @@
-arnoson.kirby-forms.submit: Submit
-arnoson.kirby-forms.success: Success
-arnoson.kirby-forms.error: Error
-arnoson.kirby-forms.error-message: Error Message
-arnoson.kirby-forms.fields: Fields
-arnoson.kirby-forms.message: Message
-arnoson.kirby-forms.page: Page
-arnoson.kirby-forms.enabled: Enabled
-arnoson.kirby-forms.submitted: Submitted
-arnoson.kirby-forms.entries: Entries
-arnoson.kirby-forms.settings: Settings
-arnoson.kirby-forms.export: Export
-arnoson.kirby-forms.create-from-label: Create from label
-arnoson.kirby-forms.label: Label
-arnoson.kirby-forms.field-name: Field Name
-arnoson.kirby-forms.field-identifier: Name
-arnoson.kirby-forms.field-identifier-placeholder: field_name
-arnoson.kirby-forms.required: Required
-arnoson.kirby-forms.default: Default
-arnoson-kirby-forms.default-select-placeholder: value
-arnoson-kirby-forms.default-radio-placeholder: value
-arnoson-kirby-forms.default-checkboxes-placeholder: option1, option2
-arnoson.kirby-forms.max-length: Max length
-arnoson.kirby-forms.min-length: Min length
-arnoson.kirby-forms.max-value: Max Value
-arnoson.kirby-forms.min-value: Min Value
-arnoson.kirby-forms.step: Step
-arnoson.kirby-forms.pattern: Pattern
-arnoson.kirby-forms.placeholder: Placeholder
-arnoson.kirby-forms.options: Options
-arnoson.kirby-forms.empty: Allow empty
-arnoson.kirby-forms.value: Value
-arnoson.kirby-forms.basic: Basic
-arnoson.kirby-forms.contact: Contact
-arnoson.kirby-forms.date-and-time: Date & Time
-arnoson.kirby-forms.other: Sonstige
-arnoson.kirby-forms.form: Form
-arnoson.kirby-forms.forms: Forms
+arnoson.kirby-form-builder.submit: Submit
+arnoson.kirby-form-builder.success: Success
+arnoson.kirby-form-builder.error: Error
+arnoson.kirby-form-builder.error-message: Error Message
+arnoson.kirby-form-builder.fields: Fields
+arnoson.kirby-form-builder.message: Message
+arnoson.kirby-form-builder.page: Page
+arnoson.kirby-form-builder.enabled: Enabled
+arnoson.kirby-form-builder.submitted: Submitted
+arnoson.kirby-form-builder.entries: Entries
+arnoson.kirby-form-builder.settings: Settings
+arnoson.kirby-form-builder.export: Export
+arnoson.kirby-form-builder.create-from-label: Create from label
+arnoson.kirby-form-builder.label: Label
+arnoson.kirby-form-builder.field-name: Field Name
+arnoson.kirby-form-builder.field-identifier: Name
+arnoson.kirby-form-builder.field-identifier-placeholder: field_name
+arnoson.kirby-form-builder.required: Required
+arnoson.kirby-form-builder.default: Default
+arnoson-kirby-form-builder.default-select-placeholder: value
+arnoson-kirby-form-builder.default-radio-placeholder: value
+arnoson-kirby-form-builder.default-checkboxes-placeholder: option1, option2
+arnoson.kirby-form-builder.max-length: Max length
+arnoson.kirby-form-builder.min-length: Min length
+arnoson.kirby-form-builder.max-value: Max Value
+arnoson.kirby-form-builder.min-value: Min Value
+arnoson.kirby-form-builder.step: Step
+arnoson.kirby-form-builder.pattern: Pattern
+arnoson.kirby-form-builder.placeholder: Placeholder
+arnoson.kirby-form-builder.options: Options
+arnoson.kirby-form-builder.empty: Allow empty
+arnoson.kirby-form-builder.value: Value
+arnoson.kirby-form-builder.basic: Basic
+arnoson.kirby-form-builder.contact: Contact
+arnoson.kirby-form-builder.date-and-time: Date & Time
+arnoson.kirby-form-builder.other: Sonstige
+arnoson.kirby-form-builder.form: Form
+arnoson.kirby-form-builder.forms: Forms
 
-arnoson.kirby-forms.success-type: Show
-arnoson.kirby-forms.submit-button-label: Button label
+arnoson.kirby-form-builder.success-type: Show
+arnoson.kirby-form-builder.submit-button-label: Button label
 
-arnoson.kirby-forms.confirmation-email: Confirmation Email
-arnoson.kirby-forms.notification-email: Notification Email
-arnoson.kirby-forms.email-from: From
-arnoson.kirby-forms.email-to: To
-arnoson.kirby-forms.email-subject: Subject
-arnoson.kirby-forms.email-subject-placeholder: Thank you for your registration!
-arnoson.kirby-forms.email-content: Content
-arnoson.kirby-forms.email-content-text: Text
-arnoson.kirby-forms.email-content-template: Template
-arnoson.kirby-forms.brevo-update: Update existing contacts
-arnoson.kirby-forms.brevo-list-id: List
-arnoson.kirby-forms.brevo-opt-in: Double-opt-in
-arnoson.kirby-forms.brevo-redirection-url: Confirmation page
-arnoson.kirby-forms.brevo-template-id: Double-opt-in template
-arnoson.kirby-forms.save: Save
-arnoson.kirby-forms.save-entries: Save in Kirby
+arnoson.kirby-form-builder.confirmation-email: Confirmation Email
+arnoson.kirby-form-builder.notification-email: Notification Email
+arnoson.kirby-form-builder.email-from: From
+arnoson.kirby-form-builder.email-to: To
+arnoson.kirby-form-builder.email-subject: Subject
+arnoson.kirby-form-builder.email-subject-placeholder: Thank you for your registration!
+arnoson.kirby-form-builder.email-content: Content
+arnoson.kirby-form-builder.email-content-text: Text
+arnoson.kirby-form-builder.email-content-template: Template
+arnoson.kirby-form-builder.brevo-update: Update existing contacts
+arnoson.kirby-form-builder.brevo-list-id: List
+arnoson.kirby-form-builder.brevo-opt-in: Double-opt-in
+arnoson.kirby-form-builder.brevo-redirection-url: Confirmation page
+arnoson.kirby-form-builder.brevo-template-id: Double-opt-in template
+arnoson.kirby-form-builder.save: Save
+arnoson.kirby-form-builder.save-entries: Save in Kirby
 
-arnoson.kirby-forms.checkbox: Checkbox
-arnoson.kirby-forms.checkboxes: Checkboxes
-arnoson.kirby-forms.date: Date
-arnoson.kirby-forms.email: Email
-arnoson.kirby-forms.number: Number
-arnoson.kirby-forms.radio: Radio Buttons
-arnoson.kirby-forms.select: Select
-arnoson.kirby-forms.tel: Telephone
-arnoson.kirby-forms.text: Text
-arnoson.kirby-forms.textarea: Textarea
-arnoson.kirby-forms.time: Time
-arnoson.kirby-forms.url: URL
+arnoson.kirby-form-builder.checkbox: Checkbox
+arnoson.kirby-form-builder.checkboxes: Checkboxes
+arnoson.kirby-form-builder.date: Date
+arnoson.kirby-form-builder.email: Email
+arnoson.kirby-form-builder.number: Number
+arnoson.kirby-form-builder.radio: Radio Buttons
+arnoson.kirby-form-builder.select: Select
+arnoson.kirby-form-builder.tel: Telephone
+arnoson.kirby-form-builder.text: Text
+arnoson.kirby-form-builder.textarea: Textarea
+arnoson.kirby-form-builder.time: Time
+arnoson.kirby-form-builder.url: URL
 
-arnoson.kirby-forms.invalid-checkboxes-error: Please select one or more options
-arnoson.kirby-forms.invalid-date-error: Please enter a valid date
-arnoson.kirby-forms.invalid-email-error: Please enter a valid email address
-arnoson.kirby-forms.invalid-number-error: Please enter a valid number
-arnoson.kirby-forms.invalid-radio-error: Please select an option
-arnoson.kirby-forms.invalid-select-error: Please select an option
-arnoson.kirby-forms.invalid-tel-error: Please enter a valid telephone number
-arnoson.kirby-forms.invalid-text-error: Please enter a text
-arnoson.kirby-forms.invalid-time-error: Please enter a valid time
-arnoson.kirby-forms.invalid-url-error: Please enter a valid URL
-arnoson.kirby-forms.duplicate-name-error: A field with the name "{name}" already exists
+arnoson.kirby-form-builder.invalid-checkboxes-error: Please select one or more options
+arnoson.kirby-form-builder.invalid-date-error: Please enter a valid date
+arnoson.kirby-form-builder.invalid-email-error: Please enter a valid email address
+arnoson.kirby-form-builder.invalid-number-error: Please enter a valid number
+arnoson.kirby-form-builder.invalid-radio-error: Please select an option
+arnoson.kirby-form-builder.invalid-select-error: Please select an option
+arnoson.kirby-form-builder.invalid-tel-error: Please enter a valid telephone number
+arnoson.kirby-form-builder.invalid-text-error: Please enter a text
+arnoson.kirby-form-builder.invalid-time-error: Please enter a valid time
+arnoson.kirby-form-builder.invalid-url-error: Please enter a valid URL
+arnoson.kirby-form-builder.duplicate-name-error: A field with the name "{name}" already exists
 
-arnoson.kirby-forms.no-entries: No entries yet
-arnoson.kirby-forms.no-emails: No email addresses found
-arnoson.kirby-forms.no-fields: No fields yet
-arnoson.kirby-forms.form-not-found: Couldn't find form "{name}"
-arnoson.kirby-forms.form-entry-not-found: Couldn't find form entry "{name}"
-arnoson.kirby-forms.save-error: An error occurred while saving the form data
-arnoson.kirby-forms.reserved-identifier: The name cannot be 'website' as this field is used for spam protection. Please use a different name like 'website_url' instead.
-arnoson.kirby-forms.no-comma-in-value: The value cannot contain a comma.
-arnoson.kirby-forms.empty-notification-body: Leave this field empty to send all form data instead.
-arnoson.kirby-forms.brevo-error: Data could not be transmitted to Brevo
+arnoson.kirby-form-builder.no-entries: No entries yet
+arnoson.kirby-form-builder.no-emails: No email addresses found
+arnoson.kirby-form-builder.no-fields: No fields yet
+arnoson.kirby-form-builder.form-not-found: Couldn't find form "{name}"
+arnoson.kirby-form-builder.form-entry-not-found: Couldn't find form entry "{name}"
+arnoson.kirby-form-builder.save-error: An error occurred while saving the form data
+arnoson.kirby-form-builder.reserved-identifier: The name cannot be 'website' as this field is used for spam protection. Please use a different name like 'website_url' instead.
+arnoson.kirby-form-builder.no-comma-in-value: The value cannot contain a comma.
+arnoson.kirby-form-builder.empty-notification-body: Leave this field empty to send all form data instead.
+arnoson.kirby-form-builder.brevo-error: Data could not be transmitted to Brevo

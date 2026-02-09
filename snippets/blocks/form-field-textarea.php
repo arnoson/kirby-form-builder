@@ -1,5 +1,5 @@
 <?php
-$attributes = arnoson\KirbyForms\formFieldAttributes($id, $block, $form);
+$attributes = arnoson\KirbyFormBuilder\formFieldAttributes($id, $block, $form);
 
 $value = $attributes['value'];
 unset($attributes['value']);

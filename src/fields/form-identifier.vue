@@ -22,7 +22,7 @@
     />
 
     <k-box v-if="value === 'website'" theme="negative" style="margin-top: 1rem"
-      >{{ $t('arnoson.kirby-forms.reserved-identifier') }}
+      >{{ $t('arnoson.kirby-form-builder.reserved-identifier') }}
     </k-box>
   </k-field>
 </template>

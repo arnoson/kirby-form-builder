@@ -1,8 +1,8 @@
-title: arnoson.kirby-forms.forms
+title: arnoson.kirby-form-builder.forms
 sections:
   pages:
     type: pages
-    label: arnoson.kirby-forms.forms
+    label: arnoson.kirby-form-builder.forms
     templates:
       - form
       - form-workshop

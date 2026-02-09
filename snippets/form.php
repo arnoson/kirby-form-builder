@@ -1,16 +1,16 @@
 <?php
 
-use arnoson\KirbyForms\KirbyForms;
+use arnoson\KirbyFormBuilder\KirbyFormBuilder;
 
 $formPage ??= $page;
-$formId = KirbyForms::getFormId($formPage);
-$form = new Uniform\Form(kirbyForms()->formRules($formPage), $formId);
+$formId = KirbyFormBuilder::getFormId($formPage);
+$form = new Uniform\Form(KirbyFormBuilder()->formRules($formPage), $formId);
 $hasErrors = count($form->errors()) > 0;
 
 // There might be multiple forms rendered on the page, so we only process the
 // form if the form's id is matching.
 if ($kirby->request()->is('POST') && get('form_id') === $formId) {
-  kirbyForms()->processRequest($formPage, $form);
+  KirbyFormBuilder()->processRequest($formPage, $form);
 }
 ?>
 
@@ -27,13 +27,17 @@ if ($kirby->request()->is('POST') && get('form_id') === $formId) {
 <form <?= attr([
   'action' => $page->url(),
   'method' => 'POST',
-  'autocomplete' => option('arnoson.kirby-forms.autoComplete') ? 'on' : 'off',
-  'novalidate' => option('arnoson.kirby-forms.clientValidation') ? null : true,
+  'autocomplete' => option('arnoson.kirby-form-builder.autoComplete')
+    ? 'on'
+    : 'off',
+  'novalidate' => option('arnoson.kirby-form-builder.clientValidation')
+    ? null
+    : true,
 ]) ?>>
   <?php snippet('form-fields', [
     'form' => $form,
     'formPage' => $formPage,
-    'gridColumns' => option('arnoson.kirby-forms.gridColumns'),
+    'gridColumns' => option('arnoson.kirby-form-builder.gridColumns'),
   ]); ?>
   <input type="hidden" name="form_name" value="<?= $formPage->title() ?>" />
   <?= csrf_field() ?>

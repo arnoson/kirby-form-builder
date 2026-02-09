@@ -1,4 +1,4 @@
-name: arnoson.kirby-forms.number
+name: arnoson.kirby-form-builder.number
 icon: 🔟
 fields:
   extends: fields/form-field-basic
@@ -20,11 +20,11 @@ fields:
     width: 2/12
   step:
     type: text
-    label: arnoson.kirby-forms.step
+    label: arnoson.kirby-form-builder.step
     counter: false
     spellcheck: false
     placeholder: '0.01'
     width: 2/12
   error:
     extends: fields/form-error-message
-    placeholder: arnoson.kirby-forms.invalid-number-error
+    placeholder: arnoson.kirby-form-builder.invalid-number-error

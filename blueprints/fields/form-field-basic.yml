@@ -2,22 +2,22 @@ type: group
 fields:
   label:
     type: text
-    label: arnoson.kirby-forms.label
-    placeholder: arnoson.kirby-forms.field-name
+    label: arnoson.kirby-form-builder.label
+    placeholder: arnoson.kirby-form-builder.field-name
     width: 5/12
   name:
     type: form-identifier
-    label: arnoson.kirby-forms.field-identifier
+    label: arnoson.kirby-form-builder.field-identifier
     sync: label
-    placeholder: arnoson.kirby-forms.field-identifier-placeholder
+    placeholder: arnoson.kirby-form-builder.field-identifier-placeholder
     required: true
     width: 5/12
     pattern: ^(?!website$).*
     wizard:
       field: label
-      text: arnoson.kirby-forms.create-from-label
+      text: arnoson.kirby-form-builder.create-from-label
   required:
     type: toggle
-    label: arnoson.kirby-forms.required
+    label: arnoson.kirby-form-builder.required
     default: false
     width: 2/12

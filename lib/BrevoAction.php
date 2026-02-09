@@ -46,14 +46,14 @@ class BrevoAction extends Action {
       'headers' => [
         'Accept' => 'application/json',
         'Content-Type' => 'application/json',
-        'Api-Key' => option('arnoson.kirby-forms.brevoApiKey'),
+        'Api-Key' => option('arnoson.kirby-form-builder.brevoApiKey'),
       ],
       'data' => json_encode($data),
     ]);
 
     if ($response->code() < 200 || $response->code() >= 300) {
       $error = json_decode($response->content())->message ?? 'unknown error';
-      $message = t('arnoson.kirby-forms.brevo-error');
+      $message = t('arnoson.kirby-form-builder.brevo-error');
       $message = option('debug') ? "$message: $error" : $message;
       $this->fail($message);
     }
