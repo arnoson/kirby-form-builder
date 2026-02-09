@@ -3,8 +3,7 @@
     "start": "ddev start && npm run dev",
     "dev": "kirbyup serve src/index.js",
     "build": "kirbyup src/index.js",
-    "commit-build": "git add index.js index.css && git commit -m 'chore: build'",
-    "release": "npm run build && (npm run commit-build || true) && bumpp composer.json",
+    "release": "npm run build && bumpp --all composer.json",
     "check-prettier": "npx prettier --check \"**/*.{php,js,css}\"",
     "format": "npx prettier --write \"**/*.{php,js,css}\""
   },
