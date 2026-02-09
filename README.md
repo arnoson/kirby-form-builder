@@ -9,6 +9,10 @@
 
 A flexible form builder and handler based on Kirby's layout and block fields and [Kirby Uniform](https://github.com/mzur/kirby-uniform/).
 
+> **⚠️ Repository Renamed**
+>
+> This repository was renamed from `kirby-forms` to `kirby-form-builder` in version `0.0.9`. Please update your dependencies and config options accordingly.
+
 ## Features
 
 - 🎨 Form builder using Kirby's built-in layout and blocks fields
