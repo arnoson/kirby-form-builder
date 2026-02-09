@@ -1,4 +1,5 @@
 {
+  "name": "@arnoson/kirby-form-builder",
   "scripts": {
     "start": "ddev start && npm run dev",
     "dev": "kirbyup serve src/index.js",
