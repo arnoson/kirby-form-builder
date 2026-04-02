@@ -9,6 +9,7 @@ require_once __DIR__ . '/lib/KirbyFormBuilder.php';
 require_once __DIR__ . '/lib/helpers.php';
 require_once __DIR__ . '/lib/SaveEntryAction.php';
 require_once __DIR__ . '/lib/BrevoAction.php';
+require_once __DIR__ . '/lib/EmailAction.php';
 
 function KirbyFormBuilder() {
   return arnoson\KirbyFormBuilder\KirbyFormBuilder::getInstance();

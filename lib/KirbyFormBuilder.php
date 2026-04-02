@@ -114,7 +114,7 @@ class KirbyFormBuilder {
       $toEmailName = $formPage->confirmationEmail_to()->value();
       $toEmail = $form->data($toEmailName);
       if ($toEmail) {
-        $form->emailAction([
+        $form->action(EmailAction::class, [
           'to' => $toEmail,
           'from' => $formPage->confirmationEmail_from()->value(),
           'subject' => $formPage->confirmationEmail_subject()->value(),
@@ -128,7 +128,7 @@ class KirbyFormBuilder {
     }
 
     if ($formPage->notificationEmail_enabled()->toBool()) {
-      $form->emailAction([
+      $form->action(EmailAction::class, [
         'to' => $formPage->notificationEmail_to()->value(),
         'from' => $formPage->notificationEmail_from()->value(),
         'subject' => $formPage->notificationEmail_subject()->value(),
